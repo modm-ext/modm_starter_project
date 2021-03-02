@@ -1,0 +1,7 @@
+.project
+.cproject
+.vscode
+build
+modm
+project.xml.log
+**/tags

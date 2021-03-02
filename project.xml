@@ -1,0 +1,27 @@
+<library>
+  <repositories>
+    <repository><path>../modm/repo.lb</path></repository>
+  </repositories>
+  <extends>modm:mini-f411</extends>
+  <options>
+    <option name="modm:build:build.path">build</option>
+    <option name="modm:build:cmake:include_cmakelists">false</option>
+    <option name="modm:build:cmake:include_makefile">false</option>
+  </options>
+  <collectors>
+    <collect name="modm:build:openocd.source">interface/stlink-v2.cfg</collect>
+  </collectors>
+
+  <modules>
+    <module>modm:build:cmake</module>
+    <module>modm:architecture:memory</module>
+    <module>modm:platform:heap</module>
+    <module>modm:platform:spi:1</module>
+    <module>modm:platform:uart:1</module>
+    <module>modm:platform:i2c:1</module>
+    <module>modm:platform:flash</module>
+    <module>modm:platform:fault</module>
+    <module>modm:platform:id</module>
+    <module>modm:debug</module>
+  </modules>
+</library>
