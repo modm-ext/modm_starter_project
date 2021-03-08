@@ -6,8 +6,6 @@
 
 // hdr_only_lib
 #include <test/header1.h>
-// shared_lib
-#include <mylib.h>
 
 modm::IODeviceWrapper<Usart1, modm::IOBuffer::BlockIfFull> device;
 
@@ -36,8 +34,6 @@ int main()
     }
     return str;
   };
-
-  sum(10, 20);   // use static library
 
   auto build = modm::build_id();
   MODM_LOG_INFO << hex_encode(build.begin(), build.end()).c_str() << "\n\r";

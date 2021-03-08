@@ -21,7 +21,6 @@ target_include_directories(${CMAKE_PROJECT_NAME}
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
   my_header_lib
-  my_shared_lib
   project_options
   modm_options
   modm_warnings
