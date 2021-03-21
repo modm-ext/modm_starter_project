@@ -62,7 +62,7 @@ Name | Value
 |MODM_BMP_PORT                   |auto|
 |MODM_DBG_UI                     |tui|
 |MODM_ITM_FCPU                   |0|
-|MODM_GCC_PATH                   |/usr/local/arm-none.eabi|
+|MODM_GCC_PATH                   |/usr/local/arm-none-eabi|
 |WARNINGS_AS_ERRORS              |*ON|
 
 `ENABLE_MODM_CHECK_EXCLUDE` Prevents cppcheck and clang-tidy from including the modm source tree.

@@ -19,12 +19,14 @@ target_include_directories(${CMAKE_PROJECT_NAME}
 #  -Wconversion
 #)
 
+
 target_link_libraries(${CMAKE_PROJECT_NAME}
   my_header_lib
   project_options
+#  modm_arch_options
   modm_options
   modm_warnings
   modm)
 
 # Outputs hex and bin files.
-write_target_files(${CMAKE_PROJECT_NAME})
+modm_targets_create(${CMAKE_PROJECT_NAME})
