@@ -35,7 +35,7 @@ This section set build options and prevents lbuild from overwrite you main cmake
 <options>
    <option name="modm:build:build.path">build</option>
    <option name="modm:build:cmake:include_cmakelists">false</option>
-   <option name="modm:build:cmake:include_makefile">false</option>
+   <option name="modm:build:make:include_makefile">false</option>
 </options>
 ```
 
