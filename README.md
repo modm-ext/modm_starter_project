@@ -82,4 +82,6 @@ make program
 
 ### Good CMake resources
 
-[Effective Modern CMake](https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1)
+- [Effective Modern CMake](https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1)
+- [Professional CMake: A Practical Guide](https://crascit.com/professional-cmake/) by [Craig Scott](https://crascit.com/)
+- [Deep CMake for Library Authors - Craig Scott - CppCon 2019](https://www.youtube.com/watch?v=m0DwB4OvDXk)
